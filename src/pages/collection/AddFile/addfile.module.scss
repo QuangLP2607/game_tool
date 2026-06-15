@@ -1,0 +1,10 @@
+.addfile {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+
+  &__sheet {
+    flex: 1;
+    overflow: auto;
+  }
+}

@@ -1,0 +1,53 @@
+.header {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+}
+
+.logo {
+  height: 36px;
+  width: auto;
+  margin-right: 12px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+
+  background: linear-gradient(90deg, #2563eb, #22c55e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* optional cho browser mới */
+  background-clip: text;
+  color: transparent;
+}
+
+.upload-btn {
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #2563eb;
+  color: #fff;
+
+  &:hover {
+    background: #1e4ed8;
+  }
+}

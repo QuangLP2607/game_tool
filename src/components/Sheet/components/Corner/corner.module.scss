@@ -1,0 +1,14 @@
+.corner {
+  appearance: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #dadce0;
+  background: #f1f3f4;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.corner:hover {
+  background: #e8eaed;
+}

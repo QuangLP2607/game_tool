@@ -1,0 +1,49 @@
+.toolbar {
+  width: 100%;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+
+  &__backBtn {
+    border-radius: 4px;
+    color: #202124;
+    border: 1px solid #dadce0;
+    padding: 6px 12px;
+    height: 30px;
+    white-space: nowrap;
+  }
+
+  &__info {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+
+    &-address {
+      display: grid;
+      place-items: center;
+      width: 60px;
+      border: 1px solid #dadce0;
+    }
+
+    &-value {
+      flex: 1;
+      height: 30px;
+      min-height: 30px;
+      max-height: 200px;
+      z-index: 10;
+      border: 1px solid #dadce0;
+      padding: 6px;
+      resize: vertical;
+
+      overflow: auto;
+      font-family: unset;
+
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+}

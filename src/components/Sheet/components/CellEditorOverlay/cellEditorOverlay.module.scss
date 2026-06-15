@@ -1,0 +1,28 @@
+.cell-editor {
+  position: fixed;
+
+  border: 1px solid #0b57d0;
+  box-shadow:
+    inset 0 0 0 1px #0b57d0,
+    0 0 0 2px #a8c7fa;
+
+  font-family: inherit;
+
+  white-space: pre-wrap;
+  word-break: break-word;
+
+  margin: 0;
+
+  overflow: auto;
+
+  box-sizing: border-box;
+
+  line-height: 1.2;
+
+  outline: none;
+  resize: none;
+
+  background: white;
+
+  z-index: 10;
+}
