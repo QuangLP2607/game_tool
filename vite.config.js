@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react()],
-  base: "/game_tool/",
+  base: "/",
 
   resolve: {
     alias: {
